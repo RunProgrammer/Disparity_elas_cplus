@@ -1,0 +1,8 @@
+source;share/elas_ros2_cpp/hook/cmake_prefix_path.ps1
+source;share/elas_ros2_cpp/hook/cmake_prefix_path.dsv
+source;share/elas_ros2_cpp/hook/cmake_prefix_path.sh
+source;share/elas_ros2_cpp/local_setup.bash
+source;share/elas_ros2_cpp/local_setup.dsv
+source;share/elas_ros2_cpp/local_setup.ps1
+source;share/elas_ros2_cpp/local_setup.sh
+source;share/elas_ros2_cpp/local_setup.zsh

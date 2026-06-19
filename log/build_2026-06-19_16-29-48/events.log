@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000554] (elas_ros2_cpp) JobQueued: {'identifier': 'elas_ros2_cpp', 'dependencies': OrderedDict()}
+[0.000646] (elas_ros2_cpp) JobStarted: {'identifier': 'elas_ros2_cpp'}
+[0.007343] (elas_ros2_cpp) JobProgress: {'identifier': 'elas_ros2_cpp', 'progress': 'cmake'}
+[0.007796] (elas_ros2_cpp) JobProgress: {'identifier': 'elas_ros2_cpp', 'progress': 'build'}
+[0.008313] (elas_ros2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nunnari/ros2_ws/build/elas_ros2_cpp', '--', '-j12', '-l12'], 'cwd': '/home/nunnari/ros2_ws/build/elas_ros2_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nunnari'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/cuda-12.4/lib64:/usr/local/lib:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nunnari'), ('OLDPWD', '/home/nunnari/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('OLLAMA_HOST', '0.0.0.0'), ('SYSTEMD_EXEC_PID', '57346'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nunnari/ros2_ws/install:/home/nunnari/elas_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nunnari'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nunnari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nunnari/miniconda3/bin:/usr/local/cuda-12.4/bin:/home/nunnari/miniconda3/bin:/usr/local/cuda-12.4/bin:/opt/ros/humble/bin:/home/nunnari/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nunnari-server:@/tmp/.ICE-unix/1272,unix/nunnari-server:/tmp/.ICE-unix/1272'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/33c65f3d_b839_43c0_8b77_7cf9d7368b15'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.743'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nunnari/elas_ws/install/elas_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nunnari/ros2_ws/build/elas_ros2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/lib/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nunnari/elas_ws/install/elas_cpp:/opt/ros/humble')]), 'shell': False}
+[0.046324] (elas_ros2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target elas_node\x1b[0m\n'}
+[0.064299] (elas_ros2_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/elas_node.dir/src/elas_node.cpp.o\x1b[0m\n'}
+[0.064557] (elas_ros2_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/elas_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.099765] (-) TimerEvent: {}
+[0.200119] (-) TimerEvent: {}
+[0.300440] (-) TimerEvent: {}
+[0.400795] (-) TimerEvent: {}
+[0.501126] (-) TimerEvent: {}
+[0.601440] (-) TimerEvent: {}
+[0.701776] (-) TimerEvent: {}
+[0.802147] (-) TimerEvent: {}
+[0.902574] (-) TimerEvent: {}
+[1.003072] (-) TimerEvent: {}
+[1.103471] (-) TimerEvent: {}
+[1.203791] (-) TimerEvent: {}
+[1.304147] (-) TimerEvent: {}
+[1.404482] (-) TimerEvent: {}
+[1.504840] (-) TimerEvent: {}
+[1.605211] (-) TimerEvent: {}
+[1.705596] (-) TimerEvent: {}
+[1.806013] (-) TimerEvent: {}
+[1.906399] (-) TimerEvent: {}
+[2.006794] (-) TimerEvent: {}
+[2.107187] (-) TimerEvent: {}
+[2.207592] (-) TimerEvent: {}
+[2.308027] (-) TimerEvent: {}
+[2.408480] (-) TimerEvent: {}
+[2.508796] (-) TimerEvent: {}
+[2.609137] (-) TimerEvent: {}
+[2.709528] (-) TimerEvent: {}
+[2.809943] (-) TimerEvent: {}
+[2.910318] (-) TimerEvent: {}
+[3.010578] (-) TimerEvent: {}
+[3.110873] (-) TimerEvent: {}
+[3.211182] (-) TimerEvent: {}
+[3.311509] (-) TimerEvent: {}
+[3.411796] (-) TimerEvent: {}
+[3.512047] (-) TimerEvent: {}
+[3.612329] (-) TimerEvent: {}
+[3.712580] (-) TimerEvent: {}
+[3.812873] (-) TimerEvent: {}
+[3.913143] (-) TimerEvent: {}
+[4.013417] (-) TimerEvent: {}
+[4.113699] (-) TimerEvent: {}
+[4.213990] (-) TimerEvent: {}
+[4.314289] (-) TimerEvent: {}
+[4.414598] (-) TimerEvent: {}
+[4.514908] (-) TimerEvent: {}
+[4.615209] (-) TimerEvent: {}
+[4.715499] (-) TimerEvent: {}
+[4.815787] (-) TimerEvent: {}
+[4.916058] (-) TimerEvent: {}
+[5.016413] (-) TimerEvent: {}
+[5.116733] (-) TimerEvent: {}
+[5.217072] (-) TimerEvent: {}
+[5.317399] (-) TimerEvent: {}
+[5.417748] (-) TimerEvent: {}
+[5.518178] (-) TimerEvent: {}
+[5.618520] (-) TimerEvent: {}
+[5.718838] (-) TimerEvent: {}
+[5.819159] (-) TimerEvent: {}
+[5.919474] (-) TimerEvent: {}
+[6.019776] (-) TimerEvent: {}
+[6.120191] (-) TimerEvent: {}
+[6.220521] (-) TimerEvent: {}
+[6.320791] (-) TimerEvent: {}
+[6.421048] (-) TimerEvent: {}
+[6.521369] (-) TimerEvent: {}
+[6.621685] (-) TimerEvent: {}
+[6.722008] (-) TimerEvent: {}
+[6.822302] (-) TimerEvent: {}
+[6.922648] (-) TimerEvent: {}
+[7.022994] (-) TimerEvent: {}
+[7.123344] (-) TimerEvent: {}
+[7.223737] (-) TimerEvent: {}
+[7.324182] (-) TimerEvent: {}
+[7.424625] (-) TimerEvent: {}
+[7.524953] (-) TimerEvent: {}
+[7.625318] (-) TimerEvent: {}
+[7.725657] (-) TimerEvent: {}
+[7.826011] (-) TimerEvent: {}
+[7.926339] (-) TimerEvent: {}
+[8.026665] (-) TimerEvent: {}
+[8.126992] (-) TimerEvent: {}
+[8.227316] (-) TimerEvent: {}
+[8.327643] (-) TimerEvent: {}
+[8.427992] (-) TimerEvent: {}
+[8.528337] (-) TimerEvent: {}
+[8.628717] (-) TimerEvent: {}
+[8.729039] (-) TimerEvent: {}
+[8.829326] (-) TimerEvent: {}
+[8.929664] (-) TimerEvent: {}
+[9.029991] (-) TimerEvent: {}
+[9.130273] (-) TimerEvent: {}
+[9.230568] (-) TimerEvent: {}
+[9.330859] (-) TimerEvent: {}
+[9.431151] (-) TimerEvent: {}
+[9.531436] (-) TimerEvent: {}
+[9.631737] (-) TimerEvent: {}
+[9.732025] (-) TimerEvent: {}
+[9.832295] (-) TimerEvent: {}
+[9.932544] (-) TimerEvent: {}
+[10.032784] (-) TimerEvent: {}
+[10.133026] (-) TimerEvent: {}
+[10.233261] (-) TimerEvent: {}
+[10.333497] (-) TimerEvent: {}
+[10.433732] (-) TimerEvent: {}
+[10.533987] (-) TimerEvent: {}
+[10.634263] (-) TimerEvent: {}
+[10.734543] (-) TimerEvent: {}
+[10.834829] (-) TimerEvent: {}
+[10.935139] (-) TimerEvent: {}
+[11.035380] (-) TimerEvent: {}
+[11.135623] (-) TimerEvent: {}
+[11.235890] (-) TimerEvent: {}
+[11.336138] (-) TimerEvent: {}
+[11.436440] (-) TimerEvent: {}
+[11.536684] (-) TimerEvent: {}
+[11.636944] (-) TimerEvent: {}
+[11.737193] (-) TimerEvent: {}
+[11.837471] (-) TimerEvent: {}
+[11.937820] (-) TimerEvent: {}
+[12.038217] (-) TimerEvent: {}
+[12.138496] (-) TimerEvent: {}
+[12.238734] (-) TimerEvent: {}
+[12.338986] (-) TimerEvent: {}
+[12.439222] (-) TimerEvent: {}
+[12.539485] (-) TimerEvent: {}
+[12.639754] (-) TimerEvent: {}
+[12.740013] (-) TimerEvent: {}
+[12.840249] (-) TimerEvent: {}
+[12.940518] (-) TimerEvent: {}
+[13.040820] (-) TimerEvent: {}
+[13.141075] (-) TimerEvent: {}
+[13.241467] (-) TimerEvent: {}
+[13.341723] (-) TimerEvent: {}
+[13.441974] (-) TimerEvent: {}
+[13.542238] (-) TimerEvent: {}
+[13.642533] (-) TimerEvent: {}
+[13.742839] (-) TimerEvent: {}
+[13.843113] (-) TimerEvent: {}
+[13.943429] (-) TimerEvent: {}
+[14.001826] (elas_ros2_cpp) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX executable elas_node\x1b[0m\n'}
+[14.043555] (-) TimerEvent: {}
+[14.143884] (-) TimerEvent: {}
+[14.244217] (-) TimerEvent: {}
+[14.344566] (-) TimerEvent: {}
+[14.444863] (-) TimerEvent: {}
+[14.545156] (-) TimerEvent: {}
+[14.645460] (-) TimerEvent: {}
+[14.745809] (-) TimerEvent: {}
+[14.846116] (-) TimerEvent: {}
+[14.858602] (elas_ros2_cpp) StdoutLine: {'line': b'[100%] Built target elas_node\n'}
+[14.867642] (elas_ros2_cpp) CommandEnded: {'returncode': 0}
+[14.868344] (elas_ros2_cpp) JobProgress: {'identifier': 'elas_ros2_cpp', 'progress': 'install'}
+[14.875887] (elas_ros2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nunnari/ros2_ws/build/elas_ros2_cpp'], 'cwd': '/home/nunnari/ros2_ws/build/elas_ros2_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nunnari'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/cuda-12.4/lib64:/usr/local/lib:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nunnari'), ('OLDPWD', '/home/nunnari/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('OLLAMA_HOST', '0.0.0.0'), ('SYSTEMD_EXEC_PID', '57346'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nunnari/ros2_ws/install:/home/nunnari/elas_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nunnari'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nunnari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nunnari/miniconda3/bin:/usr/local/cuda-12.4/bin:/home/nunnari/miniconda3/bin:/usr/local/cuda-12.4/bin:/opt/ros/humble/bin:/home/nunnari/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nunnari-server:@/tmp/.ICE-unix/1272,unix/nunnari-server:/tmp/.ICE-unix/1272'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/33c65f3d_b839_43c0_8b77_7cf9d7368b15'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.743'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nunnari/elas_ws/install/elas_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nunnari/ros2_ws/build/elas_ros2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/lib/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nunnari/elas_ws/install/elas_cpp:/opt/ros/humble')]), 'shell': False}
+[14.882843] (elas_ros2_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.883029] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/lib/elas_ros2_cpp/elas_node\n'}
+[14.886875] (elas_ros2_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/nunnari/ros2_ws/install/elas_ros2_cpp/lib/elas_ros2_cpp/elas_node" to ""\n'}
+[14.887039] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/ament_index/resource_index/package_run_dependencies/elas_ros2_cpp\n'}
+[14.887152] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/ament_index/resource_index/parent_prefix_path/elas_ros2_cpp\n'}
+[14.887257] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/environment/ament_prefix_path.sh\n'}
+[14.887355] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/environment/ament_prefix_path.dsv\n'}
+[14.887451] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/environment/path.sh\n'}
+[14.887565] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/environment/path.dsv\n'}
+[14.887661] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/local_setup.bash\n'}
+[14.887756] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/local_setup.sh\n'}
+[14.887857] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/local_setup.zsh\n'}
+[14.887953] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/local_setup.dsv\n'}
+[14.888063] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/package.dsv\n'}
+[14.888162] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/ament_index/resource_index/packages/elas_ros2_cpp\n'}
+[14.888258] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/cmake/elas_ros2_cppConfig.cmake\n'}
+[14.888353] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/cmake/elas_ros2_cppConfig-version.cmake\n'}
+[14.888434] (elas_ros2_cpp) StdoutLine: {'line': b'-- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/package.xml\n'}
+[14.889991] (elas_ros2_cpp) CommandEnded: {'returncode': 0}
+[14.903338] (elas_ros2_cpp) JobEnded: {'identifier': 'elas_ros2_cpp', 'rc': 0}
+[14.903845] (-) EventReactorShutdown: {}

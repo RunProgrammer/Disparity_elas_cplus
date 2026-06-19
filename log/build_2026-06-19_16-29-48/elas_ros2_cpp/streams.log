@@ -1,0 +1,27 @@
+[0.010s] Invoking command in '/home/nunnari/ros2_ws/build/elas_ros2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nunnari/ros2_ws/build/elas_ros2_cpp -- -j12 -l12
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target elas_node[0m
+[0.064s] [ 25%] [32mBuilding CXX object CMakeFiles/elas_node.dir/src/elas_node.cpp.o[0m
+[0.064s] [ 25%] [32mBuilding CXX object CMakeFiles/elas_node.dir/src/main.cpp.o[0m
+[14.001s] [ 37%] [32m[1mLinking CXX executable elas_node[0m
+[14.858s] [100%] Built target elas_node
+[14.867s] Invoked command in '/home/nunnari/ros2_ws/build/elas_ros2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nunnari/ros2_ws/build/elas_ros2_cpp -- -j12 -l12
+[14.876s] Invoking command in '/home/nunnari/ros2_ws/build/elas_ros2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nunnari/ros2_ws/build/elas_ros2_cpp
+[14.882s] -- Install configuration: ""
+[14.882s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/lib/elas_ros2_cpp/elas_node
+[14.886s] -- Set runtime path of "/home/nunnari/ros2_ws/install/elas_ros2_cpp/lib/elas_ros2_cpp/elas_node" to ""
+[14.886s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/ament_index/resource_index/package_run_dependencies/elas_ros2_cpp
+[14.887s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/ament_index/resource_index/parent_prefix_path/elas_ros2_cpp
+[14.887s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/environment/ament_prefix_path.sh
+[14.887s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/environment/ament_prefix_path.dsv
+[14.887s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/environment/path.sh
+[14.887s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/environment/path.dsv
+[14.887s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/local_setup.bash
+[14.887s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/local_setup.sh
+[14.887s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/local_setup.zsh
+[14.887s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/local_setup.dsv
+[14.887s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/package.dsv
+[14.888s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/ament_index/resource_index/packages/elas_ros2_cpp
+[14.888s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/cmake/elas_ros2_cppConfig.cmake
+[14.888s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/cmake/elas_ros2_cppConfig-version.cmake
+[14.888s] -- Installing: /home/nunnari/ros2_ws/install/elas_ros2_cpp/share/elas_ros2_cpp/package.xml
+[14.890s] Invoked command in '/home/nunnari/ros2_ws/build/elas_ros2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nunnari/ros2_ws/build/elas_ros2_cpp
