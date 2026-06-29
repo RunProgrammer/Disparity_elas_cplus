@@ -1,0 +1,7 @@
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:438:1:[m[K [01;31m[Kfatal error: [m[Kerror writing to /tmp/ccP5cam7.s: No space left on device
+  438 | [01;31m[K}[m[K  // namespace stereo_depth_cpp
+      | [01;31m[K^[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/stereobm_node.dir/build.make:90: CMakeFiles/stereobm_node.dir/src/stereobm_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stereobm_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

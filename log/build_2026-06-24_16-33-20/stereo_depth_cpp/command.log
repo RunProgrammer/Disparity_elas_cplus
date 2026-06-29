@@ -1,0 +1,4 @@
+Invoking command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp': /usr/bin/cmake --build /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp -- -j12 -l12
+Invoked command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp' returned '0': /usr/bin/cmake --build /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp -- -j12 -l12
+Invoking command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp': /usr/bin/cmake --install /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp
+Invoked command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp' returned '0': /usr/bin/cmake --install /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp

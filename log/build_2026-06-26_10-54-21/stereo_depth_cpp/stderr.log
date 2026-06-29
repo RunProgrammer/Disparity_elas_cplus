@@ -1,0 +1,50 @@
+In file included from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:158[m[K:
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:97:22:[m[K [01;31m[Kerror: [m[Kmissing template arguments after ‘[01m[KApproximateTime<...auto...>[m[K’
+   97 |   using SyncPolicy = [01;31m[Kmessage_filters[m[K::sync_policies::ApproximateTime
+      |                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:69[m[K,
+                 from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:158[m[K:
+[01m[K/opt/ros/humble/include/message_filters/message_filters/sync_policies/approximate_time.h:77:8:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class M0, class M1, class M2, class M3, class M4, class M5, class M6, class M7, class M8> struct message_filters::sync_policies::ApproximateTime[m[K’ declared here
+   77 | struct [01;36m[KApproximateTime[m[K : public PolicyBase<M0, M1, M2, M3, M4, M5, M6, M7, M8>
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:158[m[K:
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:99:49:[m[K [01;31m[Kerror: [m[K‘[01m[KSyncPolicy[m[K’ was not declared in this scope
+   99 |   std::shared_ptr<message_filters::Synchronizer<[01;31m[KSyncPolicy[m[K>> sync_;
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:99:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:99:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   99 |   std::shared_ptr<message_filters::Synchronizer<SyncPolicy[01;31m[K>>[m[K sync_;
+      |                                                           [01;31m[K^~[m[K
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:[m[K In constructor ‘[01m[Kstereo_depth_cpp::StereoBMNode::StereoBMNode()[m[K’:
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:183:58:[m[K [01;31m[Kerror: [m[K‘[01m[KSyncPolicy[m[K’ was not declared in this scope
+  183 |   sync_ = std::make_shared<message_filters::Synchronizer<[01;31m[KSyncPolicy[m[K>>(
+      |                                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:183:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+In file included from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/main.cpp:1[m[K:
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:97:22:[m[K [01;31m[Kerror: [m[Kmissing template arguments after ‘[01m[KApproximateTime<...auto...>[m[K’
+   97 |   using SyncPolicy = [01;31m[Kmessage_filters[m[K::sync_policies::ApproximateTime
+      |                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:69[m[K,
+                 from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/main.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/message_filters/message_filters/sync_policies/approximate_time.h:77:8:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class M0, class M1, class M2, class M3, class M4, class M5, class M6, class M7, class M8> struct message_filters::sync_policies::ApproximateTime[m[K’ declared here
+   77 | struct [01;36m[KApproximateTime[m[K : public PolicyBase<M0, M1, M2, M3, M4, M5, M6, M7, M8>
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/main.cpp:1[m[K:
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:99:49:[m[K [01;31m[Kerror: [m[K‘[01m[KSyncPolicy[m[K’ was not declared in this scope
+   99 |   std::shared_ptr<message_filters::Synchronizer<[01;31m[KSyncPolicy[m[K>> sync_;
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:99:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:99:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   99 |   std::shared_ptr<message_filters::Synchronizer<SyncPolicy[01;31m[K>>[m[K sync_;
+      |                                                           [01;31m[K^~[m[K
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:185:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  185 |   sync_[01;31m[K->[m[KsetMaxIntervalDuration(rclcpp::Duration::from_seconds(0.1));
+      |        [01;31m[K^~[m[K
+[01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:186:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  186 |   sync_[01;31m[K->[m[KregisterCallback(
+      |        [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/stereobm_node.dir/build.make:76: CMakeFiles/stereobm_node.dir/src/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/stereobm_node.dir/build.make:90: CMakeFiles/stereobm_node.dir/src/stereobm_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stereobm_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

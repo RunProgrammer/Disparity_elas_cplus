@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp -- -j12 -l12
+[0.053s] [ 33%] [32mBuilding CXX object CMakeFiles/stereobm_node.dir/src/stereobm_node.cpp.o[0m
+[11.353s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:438:1:[m[K [01;31m[Kfatal error: [m[Kerror writing to /tmp/cc0IK7Tn.s: No space left on device
+[11.353s]   438 | [01;31m[K}[m[K  // namespace stereo_depth_cpp
+[11.353s]       | [01;31m[K^[m[K
+[11.353s] compilation terminated.
+[11.399s] gmake[2]: *** [CMakeFiles/stereobm_node.dir/build.make:90: CMakeFiles/stereobm_node.dir/src/stereobm_node.cpp.o] Error 1
+[11.400s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stereobm_node.dir/all] Error 2
+[11.400s] gmake: *** [Makefile:146: all] Error 2
+[11.402s] Invoked command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp -- -j12 -l12

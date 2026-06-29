@@ -1,0 +1,22 @@
+[3.811s] Invoking command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp -- -j12 -l12
+[3.857s] [100%] Built target stereobm_node
+[3.866s] Invoked command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp -- -j12 -l12
+[3.874s] Invoking command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp
+[3.906s] -- Install configuration: ""
+[3.906s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/lib/stereo_depth_cpp/stereobm_node
+[3.906s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/ament_index/resource_index/package_run_dependencies/stereo_depth_cpp
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/ament_index/resource_index/parent_prefix_path/stereo_depth_cpp
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/environment/ament_prefix_path.sh
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/environment/ament_prefix_path.dsv
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/environment/path.sh
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/environment/path.dsv
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/local_setup.bash
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/local_setup.sh
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/local_setup.zsh
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/local_setup.dsv
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/package.dsv
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/ament_index/resource_index/packages/stereo_depth_cpp
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/cmake/stereo_depth_cppConfig.cmake
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/cmake/stereo_depth_cppConfig-version.cmake
+[3.907s] -- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/package.xml
+[3.908s] Invoked command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp

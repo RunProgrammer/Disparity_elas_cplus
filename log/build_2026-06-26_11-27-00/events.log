@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.000218] (stereo_depth_cpp) JobQueued: {'identifier': 'stereo_depth_cpp', 'dependencies': OrderedDict()}
+[0.000260] (stereo_depth_cpp) JobStarted: {'identifier': 'stereo_depth_cpp'}
+[0.005677] (stereo_depth_cpp) JobProgress: {'identifier': 'stereo_depth_cpp', 'progress': 'cmake'}
+[0.006087] (stereo_depth_cpp) JobProgress: {'identifier': 'stereo_depth_cpp', 'progress': 'build'}
+[0.006621] (stereo_depth_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp', '--', '-j12', '-l12'], 'cwd': '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nunnari'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nunnari'), ('OLDPWD', '/mnt/hs2/SLAM-nav2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('OLLAMA_HOST', '0.0.0.0'), ('MANAGERPID', '1087'), ('SYSTEMD_EXEC_PID', '1275'), ('DBUS_SESSION_BUS_ADDRESS', ''), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20914'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/install:/home/nunnari/elas_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nunnari'), ('JOURNAL_STREAM', '8:9673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nunnari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nunnari/miniconda3/bin:/usr/local/cuda-12.4/bin:/opt/ros/humble/bin:/home/nunnari/.cargo/bin:/home/nunnari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nunnari-server:@/tmp/.ICE-unix/1252,unix/nunnari-server:/tmp/.ICE-unix/1252'), ('INVOCATION_ID', 'e6b905d91da54b15b98fe232ea132665'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp:/home/nunnari/elas_ws/install/elas_cpp:/usr'), ('SDK_TOP_DIR', '/mnt/hs2/qir_esdk/target/qcs6490-rb3gen2-vision-kit/qirpsdk_artifacts/qcs6490-rb3gen2-vision-kit/qirp-sdk'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:dbdd084b-9cbc-4f23-bb18-19c4d685c53e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/lib/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('search_dir', '/mnt/hs2/qir_esdk/target/qcs6490-rb3gen2-vision-kit/qirpsdk_artifacts/qcs6490-rb3gen2-vision-kit/qirp-sdk/toolchain/install_dir/environment*linux'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp:/home/nunnari/elas_ws/install/elas_cpp:/usr')]), 'shell': False}
+[0.041647] (stereo_depth_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereobm_node\x1b[0m\n'}
+[0.057667] (stereo_depth_cpp) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/stereobm_node.dir/src/stereobm_node.cpp.o\x1b[0m\n'}
+[0.099432] (-) TimerEvent: {}
+[0.199706] (-) TimerEvent: {}
+[0.299994] (-) TimerEvent: {}
+[0.400272] (-) TimerEvent: {}
+[0.500571] (-) TimerEvent: {}
+[0.600866] (-) TimerEvent: {}
+[0.701141] (-) TimerEvent: {}
+[0.801430] (-) TimerEvent: {}
+[0.901711] (-) TimerEvent: {}
+[1.001990] (-) TimerEvent: {}
+[1.102268] (-) TimerEvent: {}
+[1.202598] (-) TimerEvent: {}
+[1.302882] (-) TimerEvent: {}
+[1.403213] (-) TimerEvent: {}
+[1.503545] (-) TimerEvent: {}
+[1.603847] (-) TimerEvent: {}
+[1.704127] (-) TimerEvent: {}
+[1.804457] (-) TimerEvent: {}
+[1.904771] (-) TimerEvent: {}
+[2.005053] (-) TimerEvent: {}
+[2.105355] (-) TimerEvent: {}
+[2.205640] (-) TimerEvent: {}
+[2.305917] (-) TimerEvent: {}
+[2.406193] (-) TimerEvent: {}
+[2.506491] (-) TimerEvent: {}
+[2.606858] (-) TimerEvent: {}
+[2.707135] (-) TimerEvent: {}
+[2.807417] (-) TimerEvent: {}
+[2.907692] (-) TimerEvent: {}
+[3.007965] (-) TimerEvent: {}
+[3.108253] (-) TimerEvent: {}
+[3.208538] (-) TimerEvent: {}
+[3.308833] (-) TimerEvent: {}
+[3.409119] (-) TimerEvent: {}
+[3.509406] (-) TimerEvent: {}
+[3.609689] (-) TimerEvent: {}
+[3.709967] (-) TimerEvent: {}
+[3.810268] (-) TimerEvent: {}
+[3.910547] (-) TimerEvent: {}
+[4.010800] (-) TimerEvent: {}
+[4.111080] (-) TimerEvent: {}
+[4.211367] (-) TimerEvent: {}
+[4.311652] (-) TimerEvent: {}
+[4.411926] (-) TimerEvent: {}
+[4.512212] (-) TimerEvent: {}
+[4.612487] (-) TimerEvent: {}
+[4.712757] (-) TimerEvent: {}
+[4.813035] (-) TimerEvent: {}
+[4.913369] (-) TimerEvent: {}
+[5.013656] (-) TimerEvent: {}
+[5.113947] (-) TimerEvent: {}
+[5.214232] (-) TimerEvent: {}
+[5.314508] (-) TimerEvent: {}
+[5.414810] (-) TimerEvent: {}
+[5.515087] (-) TimerEvent: {}
+[5.615388] (-) TimerEvent: {}
+[5.715672] (-) TimerEvent: {}
+[5.815922] (-) TimerEvent: {}
+[5.916218] (-) TimerEvent: {}
+[6.016540] (-) TimerEvent: {}
+[6.116828] (-) TimerEvent: {}
+[6.217133] (-) TimerEvent: {}
+[6.317463] (-) TimerEvent: {}
+[6.417784] (-) TimerEvent: {}
+[6.518065] (-) TimerEvent: {}
+[6.618350] (-) TimerEvent: {}
+[6.718660] (-) TimerEvent: {}
+[6.818952] (-) TimerEvent: {}
+[6.919254] (-) TimerEvent: {}
+[7.019546] (-) TimerEvent: {}
+[7.119957] (-) TimerEvent: {}
+[7.220251] (-) TimerEvent: {}
+[7.320555] (-) TimerEvent: {}
+[7.420824] (-) TimerEvent: {}
+[7.521094] (-) TimerEvent: {}
+[7.621361] (-) TimerEvent: {}
+[7.721636] (-) TimerEvent: {}
+[7.821905] (-) TimerEvent: {}
+[7.922193] (-) TimerEvent: {}
+[8.022466] (-) TimerEvent: {}
+[8.122724] (-) TimerEvent: {}
+[8.222994] (-) TimerEvent: {}
+[8.323288] (-) TimerEvent: {}
+[8.423600] (-) TimerEvent: {}
+[8.523886] (-) TimerEvent: {}
+[8.624151] (-) TimerEvent: {}
+[8.724438] (-) TimerEvent: {}
+[8.824705] (-) TimerEvent: {}
+[8.924990] (-) TimerEvent: {}
+[9.025255] (-) TimerEvent: {}
+[9.125556] (-) TimerEvent: {}
+[9.225815] (-) TimerEvent: {}
+[9.326105] (-) TimerEvent: {}
+[9.426370] (-) TimerEvent: {}
+[9.526650] (-) TimerEvent: {}
+[9.626913] (-) TimerEvent: {}
+[9.727179] (-) TimerEvent: {}
+[9.827445] (-) TimerEvent: {}
+[9.927717] (-) TimerEvent: {}
+[10.028053] (-) TimerEvent: {}
+[10.128326] (-) TimerEvent: {}
+[10.228622] (-) TimerEvent: {}
+[10.328887] (-) TimerEvent: {}
+[10.429157] (-) TimerEvent: {}
+[10.529461] (-) TimerEvent: {}
+[10.629743] (-) TimerEvent: {}
+[10.730015] (-) TimerEvent: {}
+[10.830302] (-) TimerEvent: {}
+[10.930575] (-) TimerEvent: {}
+[11.030842] (-) TimerEvent: {}
+[11.131134] (-) TimerEvent: {}
+[11.231472] (-) TimerEvent: {}
+[11.331756] (-) TimerEvent: {}
+[11.432072] (-) TimerEvent: {}
+[11.532486] (-) TimerEvent: {}
+[11.632857] (-) TimerEvent: {}
+[11.733159] (-) TimerEvent: {}
+[11.833520] (-) TimerEvent: {}
+[11.933816] (-) TimerEvent: {}
+[12.034102] (-) TimerEvent: {}
+[12.068874] (stereo_depth_cpp) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable stereobm_node\x1b[0m\n'}
+[12.134212] (-) TimerEvent: {}
+[12.234541] (-) TimerEvent: {}
+[12.334913] (-) TimerEvent: {}
+[12.435227] (-) TimerEvent: {}
+[12.535608] (-) TimerEvent: {}
+[12.635903] (-) TimerEvent: {}
+[12.736227] (-) TimerEvent: {}
+[12.807506] (stereo_depth_cpp) StdoutLine: {'line': b'[100%] Built target stereobm_node\n'}
+[12.815693] (stereo_depth_cpp) CommandEnded: {'returncode': 0}
+[12.816176] (stereo_depth_cpp) JobProgress: {'identifier': 'stereo_depth_cpp', 'progress': 'install'}
+[12.822894] (stereo_depth_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp'], 'cwd': '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nunnari'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nunnari'), ('OLDPWD', '/mnt/hs2/SLAM-nav2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('OLLAMA_HOST', '0.0.0.0'), ('MANAGERPID', '1087'), ('SYSTEMD_EXEC_PID', '1275'), ('DBUS_SESSION_BUS_ADDRESS', ''), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20914'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/install:/home/nunnari/elas_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nunnari'), ('JOURNAL_STREAM', '8:9673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nunnari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nunnari/miniconda3/bin:/usr/local/cuda-12.4/bin:/opt/ros/humble/bin:/home/nunnari/.cargo/bin:/home/nunnari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nunnari-server:@/tmp/.ICE-unix/1252,unix/nunnari-server:/tmp/.ICE-unix/1252'), ('INVOCATION_ID', 'e6b905d91da54b15b98fe232ea132665'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp:/home/nunnari/elas_ws/install/elas_cpp:/usr'), ('SDK_TOP_DIR', '/mnt/hs2/qir_esdk/target/qcs6490-rb3gen2-vision-kit/qirpsdk_artifacts/qcs6490-rb3gen2-vision-kit/qirp-sdk'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:dbdd084b-9cbc-4f23-bb18-19c4d685c53e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/lib/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('search_dir', '/mnt/hs2/qir_esdk/target/qcs6490-rb3gen2-vision-kit/qirpsdk_artifacts/qcs6490-rb3gen2-vision-kit/qirp-sdk/toolchain/install_dir/environment*linux'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp:/home/nunnari/elas_ws/install/elas_cpp:/usr')]), 'shell': False}
+[12.829015] (stereo_depth_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.829159] (stereo_depth_cpp) StdoutLine: {'line': b'-- Installing: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/lib/stereo_depth_cpp/stereobm_node\n'}
+[12.833917] (stereo_depth_cpp) StdoutLine: {'line': b'-- Set runtime path of "/mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/lib/stereo_depth_cpp/stereobm_node" to ""\n'}
+[12.834100] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/ament_index/resource_index/package_run_dependencies/stereo_depth_cpp\n'}
+[12.834190] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/ament_index/resource_index/parent_prefix_path/stereo_depth_cpp\n'}
+[12.834262] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/environment/ament_prefix_path.sh\n'}
+[12.834328] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/environment/ament_prefix_path.dsv\n'}
+[12.834415] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/environment/path.sh\n'}
+[12.834470] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/environment/path.dsv\n'}
+[12.834520] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/local_setup.bash\n'}
+[12.834570] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/local_setup.sh\n'}
+[12.834620] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/local_setup.zsh\n'}
+[12.834669] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/local_setup.dsv\n'}
+[12.834718] (stereo_depth_cpp) StdoutLine: {'line': b'-- Installing: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/package.dsv\n'}
+[12.834768] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/ament_index/resource_index/packages/stereo_depth_cpp\n'}
+[12.834818] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/cmake/stereo_depth_cppConfig.cmake\n'}
+[12.834868] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/cmake/stereo_depth_cppConfig-version.cmake\n'}
+[12.834919] (stereo_depth_cpp) StdoutLine: {'line': b'-- Up-to-date: /mnt/hs2/SLAM-nav2/ros2_ws_stereo/install/stereo_depth_cpp/share/stereo_depth_cpp/package.xml\n'}
+[12.835802] (stereo_depth_cpp) CommandEnded: {'returncode': 0}
+[12.836309] (-) TimerEvent: {}
+[12.851489] (stereo_depth_cpp) JobEnded: {'identifier': 'stereo_depth_cpp', 'rc': 0}
+[12.852060] (-) EventReactorShutdown: {}

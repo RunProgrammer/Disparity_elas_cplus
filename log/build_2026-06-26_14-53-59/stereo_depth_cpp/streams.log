@@ -1,0 +1,66 @@
+[0.023s] Invoking command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp -- -j12 -l12
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target stereobm_node[0m
+[0.122s] [ 66%] [32mBuilding CXX object CMakeFiles/stereobm_node.dir/src/main.cpp.o[0m
+[0.122s] [ 66%] [32mBuilding CXX object CMakeFiles/stereobm_node.dir/src/stereobm_node.cpp.o[0m
+[3.003s] In file included from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/main.cpp:1[m[K:
+[3.003s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:172:22:[m[K [01;31m[Kerror: [m[Kmissing template arguments after ‘[01m[KApproximateTime<...auto...>[m[K’
+[3.003s]   172 |   using SyncPolicy = [01;31m[Kmessage_filters[m[K::sync_policies::ApproximateTime
+[3.003s]       |                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.003s] In file included from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:92[m[K,
+[3.003s]                  from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/main.cpp:1[m[K:
+[3.003s] [01m[K/opt/ros/humble/include/message_filters/message_filters/sync_policies/approximate_time.h:77:8:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class M0, class M1, class M2, class M3, class M4, class M5, class M6, class M7, class M8> struct message_filters::sync_policies::ApproximateTime[m[K’ declared here
+[3.003s]    77 | struct [01;36m[KApproximateTime[m[K : public PolicyBase<M0, M1, M2, M3, M4, M5, M6, M7, M8>
+[3.003s]       |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.013s] In file included from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:262[m[K:
+[3.013s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:172:22:[m[K [01;31m[Kerror: [m[Kmissing template arguments after ‘[01m[KApproximateTime<...auto...>[m[K’
+[3.013s]   172 |   using SyncPolicy = [01;31m[Kmessage_filters[m[K::sync_policies::ApproximateTime
+[3.013s]       |                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.013s] In file included from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:92[m[K,
+[3.013s]                  from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:262[m[K:
+[3.013s] [01m[K/opt/ros/humble/include/message_filters/message_filters/sync_policies/approximate_time.h:77:8:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class M0, class M1, class M2, class M3, class M4, class M5, class M6, class M7, class M8> struct message_filters::sync_policies::ApproximateTime[m[K’ declared here
+[3.013s]    77 | struct [01;36m[KApproximateTime[m[K : public PolicyBase<M0, M1, M2, M3, M4, M5, M6, M7, M8>
+[3.013s]       |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.013s] In file included from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/main.cpp:1[m[K:
+[3.013s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:174:49:[m[K [01;31m[Kerror: [m[K‘[01m[KSyncPolicy[m[K’ was not declared in this scope
+[3.013s]   174 |   std::shared_ptr<message_filters::Synchronizer<[01;31m[KSyncPolicy[m[K>> sync_;
+[3.014s]       |                                                 [01;31m[K^~~~~~~~~~[m[K
+[3.014s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:174:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.014s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:174:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.014s]   174 |   std::shared_ptr<message_filters::Synchronizer<SyncPolicy[01;31m[K>>[m[K sync_;
+[3.014s]       |                                                           [01;31m[K^~[m[K
+[3.021s] In file included from [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:262[m[K:
+[3.021s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:174:49:[m[K [01;31m[Kerror: [m[K‘[01m[KSyncPolicy[m[K’ was not declared in this scope
+[3.021s]   174 |   std::shared_ptr<message_filters::Synchronizer<[01;31m[KSyncPolicy[m[K>> sync_;
+[3.021s]       |                                                 [01;31m[K^~~~~~~~~~[m[K
+[3.021s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:174:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.022s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/include/stereo_depth_cpp/stereobm_node.hpp:174:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.022s]   174 |   std::shared_ptr<message_filters::Synchronizer<SyncPolicy[01;31m[K>>[m[K sync_;
+[3.022s]       |                                                           [01;31m[K^~[m[K
+[3.039s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:[m[K In constructor ‘[01m[Kstereo_depth_cpp::StereoBMNode::StereoBMNode()[m[K’:
+[3.039s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:289:58:[m[K [01;31m[Kerror: [m[K‘[01m[KSyncPolicy[m[K’ was not declared in this scope
+[3.039s]   289 |   sync_ = std::make_shared<message_filters::Synchronizer<[01;31m[KSyncPolicy[m[K>>(
+[3.039s]       |                                                          [01;31m[K^~~~~~~~~~[m[K
+[3.039s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:289:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.081s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:291:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.081s]   291 |   sync_[01;31m[K->[m[KsetMaxIntervalDuration(rclcpp::Duration::from_seconds(0.1));
+[3.081s]       |        [01;31m[K^~[m[K
+[3.081s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:292:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.081s]   292 |   sync_[01;31m[K->[m[KregisterCallback(
+[3.081s]       |        [01;31m[K^~[m[K
+[3.106s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:[m[K In destructor ‘[01m[Kvirtual stereo_depth_cpp::StereoBMNode::~StereoBMNode()[m[K’:
+[3.106s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:342:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcd_header_reserve_[m[K’ was not declared in this scope
+[3.106s]   342 |       if (hstr.size() < [01;31m[Kpcd_header_reserve_[m[K) {
+[3.106s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.118s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:345:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcd_header_reserve_[m[K’ was not declared in this scope
+[3.118s]   345 |       hstr[[01;31m[Kpcd_header_reserve_[m[K - 1] = '\n';
+[3.118s]       |            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.131s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:[m[K In member function ‘[01m[Kvoid stereo_depth_cpp::StereoBMNode::savePCD(const std::vector<float>&, const std::vector<float>&, const std::vector<float>&)[m[K’:
+[3.131s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:367:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcd_header_reserve_[m[K’ was not declared in this scope
+[3.131s]   367 |     std::string placeholder([01;31m[Kpcd_header_reserve_[m[K, ' ');
+[3.131s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.205s] gmake[2]: *** [CMakeFiles/stereobm_node.dir/build.make:76: CMakeFiles/stereobm_node.dir/src/main.cpp.o] Error 1
+[4.205s] gmake[2]: *** Waiting for unfinished jobs....
+[6.881s] gmake[2]: *** [CMakeFiles/stereobm_node.dir/build.make:90: CMakeFiles/stereobm_node.dir/src/stereobm_node.cpp.o] Error 1
+[6.882s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stereobm_node.dir/all] Error 2
+[6.882s] gmake: *** [Makefile:146: all] Error 2
+[6.883s] Invoked command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp -- -j12 -l12

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bd7e14bc73d8ca57f280.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stereo_depth_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_depth_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_depth_cpp_uninstall-414440e83e880e98f7a9.json",
+					"name" : "stereo_depth_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereobm_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereobm_node-22f235f8a5595538ff54.json",
+					"name" : "stereobm_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-431f1cdee0e134924b8b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp",
+		"source" : "/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

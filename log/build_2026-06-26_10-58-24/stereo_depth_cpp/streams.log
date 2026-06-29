@@ -1,0 +1,13 @@
+[0.008s] Invoking command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp': /usr/bin/cmake --build /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp -- -j12 -l12
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target stereobm_node[0m
+[0.059s] [ 66%] [32mBuilding CXX object CMakeFiles/stereobm_node.dir/src/stereobm_node.cpp.o[0m
+[0.059s] [ 66%] [32mBuilding CXX object CMakeFiles/stereobm_node.dir/src/main.cpp.o[0m
+[2.790s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:[m[K In constructor ‘[01m[Kstereo_depth_cpp::StereoBMNode::StereoBMNode()[m[K’:
+[2.790s] [01m[K/mnt/hs2/SLAM-nav2/ros2_ws_stereo/src/stereo_depth_cpp/src/stereobm_node.cpp:183:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksync_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksync[m[K’?
+[2.790s]   183 |   [01;31m[Ksync_[m[K = std::make_shared<message_filters::Synchronizer<SyncPolicy>>(
+[2.790s]       |   [01;31m[K^~~~~[m[K
+[2.791s]       |   [32m[Ksync[m[K
+[6.843s] gmake[2]: *** [CMakeFiles/stereobm_node.dir/build.make:90: CMakeFiles/stereobm_node.dir/src/stereobm_node.cpp.o] Error 1
+[6.843s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stereobm_node.dir/all] Error 2
+[6.843s] gmake: *** [Makefile:146: all] Error 2
+[6.845s] Invoked command in '/mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp' returned '2': /usr/bin/cmake --build /mnt/hs2/SLAM-nav2/ros2_ws_stereo/build/stereo_depth_cpp -- -j12 -l12
